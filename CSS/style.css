@@ -1,0 +1,55 @@
+body{
+    background-color: #d5e1ef;
+}
+
+#conteudoQrcode{
+    width: 320px;
+    margin: 35px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#imgQrcode{
+    padding: 10px;
+    width: 310px;
+    border-radius: 15px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c8c9cb;
+    font-weight: 700;
+}
+#mensagens{
+    width: 300px;
+    padding: 15px;
+}
+
+@media (min-width:320px) and (max-width: 380px){
+    #conteudoQrcode{
+        width: 260px;
+    }
+    #imgQrcode{
+        width: 240px;
+    }
+    #mensagens{
+        width: 230px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 319px){
+    #conteudoQrcode{
+        width: 220px;
+    }
+    #imgQrcode{
+        width: 200px;
+    }
+    #mensagens{
+        width: 190px;
+        padding: 5px;
+    }
+}
